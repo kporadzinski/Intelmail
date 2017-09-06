@@ -3,17 +3,28 @@
     <head>
       <meta charset="utf-8">
       <title> SMART CONTACT FORM </title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <script src='script.js'></script>
     </head>
 
-    <body style="background:yellow">
+    <body style="background:#E6EDF7">
 
       <div id='main'>
         <h2 style="color:black"> CONTACT FORM </h2>
       </div>
 
     <div id='form'>
-          <form action='hub.php' method="POST">
-          <input name="text"> </input>
-
-          </form>
+    <form action='hub.php' method="POST">
+          Treść wiadomości: <br>
+          <textarea class="input" name="message"></textarea><br>
+          email: <br>
+          <input class="input" name="email" > </input> </br>
+          <input class="input" type="submit" value='send'>
+    </form>
     </div>
+
+<div>
+    <button id='14' onclick="OpenWindow()"> godzina  </button>
+</div>
+
+    </html>
