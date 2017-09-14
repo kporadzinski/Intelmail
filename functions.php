@@ -38,6 +38,13 @@ function purgatory(){
 //
 // };
 
+function show_array($array) {
+
+  for ($i=0;$i<count($array);$i++) {
+    echo($array[$i]);
+  }
+
+}
 
 
 ?>

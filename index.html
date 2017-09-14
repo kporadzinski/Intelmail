@@ -18,12 +18,21 @@
     <div id='form'>
     <form action='hub.php' method="POST">
           Treść wiadomości: <br>
-          <textarea class="input" name="message"></textarea><br>
+          <input type='textarea' class="input" name="message" value="tu wpisz wiadomość"></textarea><br>
           email: <br>
-          <input class="input" name="email" > </input> </br>
+          <input type = 'password' class="input" name="email" > </input> </br>
           <input class="input" type="submit" value='send'>
+
+          <div id='box'>
+          <input type="checkbox" name="departament[]" value="1" checked disabled> Departament 1 <br>
+          <input type="checkbox" name="departament[]" value="2"> Departament 2 <br>
+          <input type="checkbox" name="departament[]" value="3"> Departament 3 <br>
+          <input type="checkbox" name="departament[]" value="4"> Departament 4 <br>
+          </div>
     </form>
     </div>
+
+
 
 <div>
     <button id='14' onclick="OpenWindow()"> godzina  </button>
